@@ -6,10 +6,10 @@
 }
 
 body {
-	background: #FFFFFF;
+	background: #CBEDE2;
 }
 
-ul {
+header ul {
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
@@ -36,11 +36,8 @@ a {
 	}
 
 h1, h2, p, a, span{
-	color: #fff;
+	color: #696969;
 }
-	.scnd-font-color {
-		color: #9099b7;
-	}
 
 
 .horizontal-list {
@@ -59,7 +56,7 @@ button {
 	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
-	margin: 0 auto;
+	margin: 1% auto;
 	border-radius: 5px;
 	-webkit-transition: background .3s;
 	transition: background .3s;
@@ -73,7 +70,7 @@ button {
 	header {
 		height: 40px;
                 width: 100%;
-                background-color: #0EBFE9;
+                background-color: #FFFFFF;
                 top: 0;
                 left:0;
                 position: fixed;
@@ -97,8 +94,56 @@ button {
                                 
                     .left-sidebar
                     {
-                        position:absolute;
-                        left:20px; top:60px; bottom: 0;
-                        width: 178px;
-                        background-color: black;
+                        position:fixed;
+                        left:20px; top:60px;
+                        width: 20%;
+                        height:70%;
+                        background-color: #CBEDE2;
                     }
+                    
+                    .profile-left
+                    {
+                        border-radius: 10px;
+                        border: #696969 thin solid;
+                        height: 40%;
+                        background-color: #FFFFFF;
+                        background-image: url("../images/basic/profileback.jpeg");
+                        
+                    }
+                    
+                    .paracenter
+                    {
+                    
+                        display: inline-block;
+                        display: -moz-inline-box;
+                        width: 32%;
+                        text-align: center;
+                    }
+                    
+                    #trending
+                    {
+                        
+                        text-align: center;
+                        background-color: #CBEDE2;
+                        margin-top: 15%;
+                    }
+                    
+                    #trending ul
+                    {
+                       
+                        margin-top: -5%;
+                       border:#696969 thin solid;
+                        border-radius:10px;
+                        text-align: left;
+                        background-color: #FFFFFF;
+                    }
+                    
+                    
+               #trending ul a
+               {
+                   font-size: 1.1em;
+               }
+ 
+                    
+                    
+              
