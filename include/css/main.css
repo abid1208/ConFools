@@ -1,0 +1,104 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+
+body {
+	background: #FFFFFF;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+h1 {
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+p {
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+
+h1, h2, p, a, span{
+	color: #fff;
+}
+	.scnd-font-color {
+		color: #9099b7;
+	}
+
+
+.horizontal-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+	.horizontal-list li {
+		float: left;
+	}
+
+button {
+	display: block;
+	width: 175px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+}
+	button:hover {
+		text-decoration: none;
+	}
+
+	
+	/*********************************************** HEADER ***********************************************/
+	header {
+		height: 40px;
+                width: 100%;
+                background-color: #0EBFE9;
+                top: 0;
+                left:0;
+                position: fixed;
+	}
+		.header-menu {
+			font-size: 17px;
+			line-height: 40px;
+		}
+			.header-menu li {
+				position: relative;
+        		-webkit-transform: translateZ(0); /** To avoid a flash when hover messages **/
+			}
+				.header-menu-tab {
+					padding: 0 10px;
+					display: block;
+					line-height: 36px;
+					font-size: 24px;
+					-webkit-transition: background .3s;
+					transition: background .3s;
+				}
+                                
+                    .left-sidebar
+                    {
+                        position:absolute;
+                        left:20px; top:60px; bottom: 0;
+                        width: 178px;
+                        background-color: black;
+                    }
